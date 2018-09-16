@@ -10,4 +10,4 @@ RUN npm install
 COPY app.js /chat
 COPY index.html /chat
 
-EXPOSE 2000
+EXPOSE 8080
