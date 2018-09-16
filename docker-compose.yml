@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  
+  node:
+    container_name: chat-node
+    build: .
+    volumes:
+      - ./:/app
+    ports:
+      - "2000:2000"
+    command: nodemon /chat/app.js
+
+ 
