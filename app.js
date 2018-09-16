@@ -14,4 +14,4 @@ io.on('connection',function(socket){
        io.emit('chat',msg)
     })
 })
-http.listen(2000,console.log("port open"))
+http.listen(8080,console.log("port open8080"))
